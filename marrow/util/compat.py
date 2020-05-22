@@ -14,7 +14,7 @@ import traceback
 
 __all__ = ['formatdate', 'unquote', 'range', 'execfile', 'exception', 'binary',
            'unicode', 'bytestring', 'native', 'unicodestr', 'uvalues', 'IO',
-           'parse_qsl']
+           ]
 
 
 if sys.version_info < (3, 0):  
@@ -30,7 +30,6 @@ if sys.version_info < (3, 0):
 else:  # pragma: no cover
     from email.utils import formatdate # DEPRECATE
     from urllib.parse import unquote_plus as unquote_
-    from cgi import parse_qsl
     basestring = str
     binary = bytes = bytes
     unicode = str
