@@ -10,7 +10,7 @@ packages = ["marrow/"]
 
 [project]
 name = 'marrow.util'
-version = '1.2.4+final1'
+version = '1.2.4+final2'
 description = "A collection of many commonly reimplemented utility classes and functions."
 authors = [
   { name = "Alice Bevan-McGregor", email = "alice@gothcandy.com" },
